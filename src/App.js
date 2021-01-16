@@ -29,7 +29,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {user ? <ChatRoom/> : <SignIn/>}
+        {/* {user ? <ChatRoom/> : <SignIn/>} */}
+        {<SignIn/>}
       </header>
     </div>
   );
@@ -52,8 +53,8 @@ function SignOut(){
   )
 }
 
-function ChatRoom(){
-  
-}
+// function ChatRoom(){
+
+// }
 
 export default App;
