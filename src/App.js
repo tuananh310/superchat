@@ -8,7 +8,7 @@ import 'firebase/analytics';
 
 import {useAuthState} from 'react-firebase-hooks/auth';
 import {useCollectionData} from 'react-firebase-hooks/firestore';
-
+// cấu hình
 firebase.initializeApp({
   apiKey: "AIzaSyCMIs2qZr0U12YsCAYMc3ivoL-BLg8FdqY",
   authDomain: "superchat-fa547.firebaseapp.com",
@@ -19,7 +19,7 @@ firebase.initializeApp({
   appId: "1:53801818479:web:80a072396d3969dec0f09a",
   measurementId: "G-1GJHENPS7T"
 })
-
+const a;
 const auth = firebase.auth();
 const firestore = firebase.firestore();
 
